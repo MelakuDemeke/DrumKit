@@ -23,4 +23,4 @@ This is a simple frontend project which is built while learning full-stack web d
 [click here to see the live web](https://melakudemeke.github.io/DrumKit/)
 
 ## Result of the code
-![site picture](images/pagesscreen.png)
+![site picture](images/pagescreen.png)
