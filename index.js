@@ -43,12 +43,12 @@ function makeSound(key){
             kick_bass.play();
             break;
             
-        default: console.log(buttonInnerHtml);
+        default: console.log(key);
     }
 }
 
 function buttonAnimation(Currentkey){
-    var activeButton = document.querySelector("."+Currentkey);
+    var activeButton = document.querySelector("."+ Currentkey);
     activeButton.classList.add("pressed");
 
     setTimeout(function(){
