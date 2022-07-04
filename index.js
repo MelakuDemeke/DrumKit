@@ -1,16 +1,16 @@
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function () {
         var buttonInnerHtml = this.innerHTML;
-        keyChecker(buttonInnerHtml);
+        makeSound(buttonInnerHtml);
     });
 }
 
 
 document.addEventListener("keypress", function(event){
-    
+    makeSound(event.key);
 });
 
-function keyChecker(key){
+function makeSound(key){
     switch (key) {
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
