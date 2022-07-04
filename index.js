@@ -50,4 +50,6 @@ function makeSound(key){
 function buttonAnimation(Currentkey){
     var activeButton = document.querySelector("."+Currentkey);
     activeButton.classList.add("pressed");
+
+    
 }
